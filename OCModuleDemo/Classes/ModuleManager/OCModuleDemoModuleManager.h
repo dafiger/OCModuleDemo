@@ -1,6 +1,6 @@
 //
-//  ReplaceMe.h
-//  Project_Demo_OC
+//  OCModuleDemoModuleManager.h
+//  OCModuleDemo
 //
 //  Created by dafiger on 2014.
 //  Copyright © 2014 dafiger. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ReplaceMe : NSObject
+@interface OCModuleDemoModuleManager : NSObject
 
 @end
 

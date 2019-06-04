@@ -87,15 +87,25 @@ Pod::Spec.new do |s|
   #     ss.dependency 'BSSBaseDependTool/BSSConfiguration'
   # end
 
-  s.subspec 'Headers' do |ss|
-      ss.source_files = '_ProjectName_/Classes/Headers/**/*'
-      ss.public_header_files = '_ProjectName_/Classes/Headers/*.h'
+  s.subspec 'Header' do |ss|
+      ss.source_files = '_ProjectName_/Classes/Header/**/*'
+      ss.public_header_files = '_ProjectName_/Classes/Header/*.h'
   end
 
   s.subspec 'Classes' do |ss|
       ss.source_files = '_ProjectName_/Classes/**/*'
       ss.public_header_files = '_ProjectName_/Classes/**/*.h'
-      ss.dependency '_ProjectName_/Headers'
+
+      ss.exclude_files = '_ProjectName_/Classes/Header/**/*'
+      ss.exclude_files = '_ProjectName_/Classes/ModuleManager/**/*'
+      ss.dependency '_ProjectName_/Header'
+  end
+
+  s.subspec 'ModuleManager' do |ss|
+      ss.source_files = '_ProjectName_/Classes/ModuleManager/**/*'
+      ss.public_header_files = '_ProjectName_/Classes/ModuleManager/**/*.h'
+      
+      ss.dependency '_ProjectName_/Classes'
   end
 
   # s.subspec 'Crash' do |ss|
