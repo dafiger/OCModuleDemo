@@ -96,8 +96,7 @@ Pod::Spec.new do |s|
       ss.source_files = '_ProjectName_/Classes/**/*'
       ss.public_header_files = '_ProjectName_/Classes/**/*.h'
 
-      ss.exclude_files = '_ProjectName_/Classes/Header/**/*'
-      ss.exclude_files = '_ProjectName_/Classes/ModuleManager/**/*'
+      ss.exclude_files = '_ProjectName_/Classes/Header/**/*', '_ProjectName_/Classes/ModuleManager/**/*'
       ss.dependency '_ProjectName_/Header'
   end
 
