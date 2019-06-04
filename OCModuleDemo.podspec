@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   # 私有头文件
   # s.private_header_files = 'Headers/Private/*.h'
   # 预编译文件
-  s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import <Foundation/Foundation.h>', '#import "_ProjectName__header.h"'
+  s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import <Foundation/Foundation.h>', '#import "_ProjectName_Header.h"'
   # s.prefix_header_file = 'iphone/include/prefix.pch'
   # s.prefix_header_contents = '#import "Masonry.h"','#import "YYModel.h"','#import "SDWebImageManager.h"','#import "UIImageView+WebCache.h"','#import "UIButton+WebCache.h"'
 
