@@ -43,6 +43,11 @@ target '_ProjectName_' do
 	#pod 'BasePlug', :path => 'Lib/BasePlug'
 	#pod 'EHomePage', :git => ‘https://github.com/yhl714387953/EHomePage.git'
 	#pod 'DFBasePlug'
+	# pod 'FFBaseKit' 引入pod库中所有模块
+	# pod 'FFBaseKit/Category' 只引入Category模块
+	# pod 'FFBaseKit', :subspecs => ['Category', 'Tools']
+	# pod 'YTXAnimations', '~> 1.2.4', :subspecs => ["AnimateCSS", "Transformer"]
+	
 	pod '_ProjectName_', :path => '../'
 
 end
