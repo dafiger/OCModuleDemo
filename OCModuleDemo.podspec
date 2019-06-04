@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
   # s.source_files = 'Classes/**/*.{h,m}', 'More_Classes/**/*.{h,m}'
 
   # 公开头文件
+  s.public_header_files = 'HellowWorld/Classes/ModuleManager/**/*.h'
   # s.public_header_files = '_ProjectName_/**/*.h'
   # 私有头文件
   # s.private_header_files = 'Headers/Private/*.h'
@@ -89,12 +90,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'Header' do |ss|
       ss.source_files = '_ProjectName_/Classes/Header/**/*'
-      ss.public_header_files = '_ProjectName_/Classes/Header/*.h'
+      # ss.public_header_files = '_ProjectName_/Classes/Header/*.h'
+      ss.private_header_files = '_ProjectName_/Classes/Header/*.h'
   end
 
   s.subspec 'Classes' do |ss|
       ss.source_files = '_ProjectName_/Classes/**/*'
-      ss.public_header_files = '_ProjectName_/Classes/**/*.h'
+      # ss.public_header_files = '_ProjectName_/Classes/**/*.h'
+      ss.private_header_files = '_ProjectName_/Classes/**/*.h'
 
       ss.exclude_files = '_ProjectName_/Classes/Header/**/*', '_ProjectName_/Classes/ModuleManager/**/*'
       ss.dependency '_ProjectName_/Header'
