@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   # s :path => '/Documents/PrettyKit/PrettyKit.podspec'
 
   # 文件路径
+  s.source_files  = '_ProjectName_/Classes/**/*'
   # s.source_files  = '_ProjectName_/**/*.{h,m,mm,swift}'
   # s.source_files = 'Classes/**/*.{h,m}', 'More_Classes/**/*.{h,m}'
 
@@ -37,7 +38,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = '_ProjectName_/Classes/ModuleManager/**/*.h'
   # s.public_header_files = '_ProjectName_/**/*.h'
   # 私有头文件
-  # s.private_header_files = 'Headers/Private/*.h'
+  s.private_header_files = '_ProjectName_/Classes/**/*.h'
   # 预编译文件
   s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import <Foundation/Foundation.h>', '#import "_ProjectName_Header.h"'
   # s.prefix_header_file = 'iphone/include/prefix.pch'
