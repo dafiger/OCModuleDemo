@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   # s.source_files = 'Classes/**/*.{h,m}', 'More_Classes/**/*.{h,m}'
 
   # 公开头文件
-  s.public_header_files = '_ProjectName_/Classes/ModuleManager/**/*.h'
+  # s.public_header_files = '_ProjectName_/Classes/ModuleManager/**/*.h'
   # s.public_header_files = '_ProjectName_/**/*.h'
   # 私有头文件
   # s.private_header_files = 'Headers/Private/*.h'
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ModuleManager' do |ss|
       ss.source_files = '_ProjectName_/Classes/ModuleManager/**/*'
-      # ss.public_header_files = '_ProjectName_/Classes/ModuleManager/**/*.h'
+      ss.public_header_files = '_ProjectName_/Classes/ModuleManager/**/*.h'
       
       ss.dependency '_ProjectName_/Classes'
   end
