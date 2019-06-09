@@ -164,6 +164,7 @@ Pod::Spec.new do |s|
   # s.requires_arc = ['Classes/*ARC.m', 'Classes/ARC.mm']
 
   # 配置  
+  # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '${SDK_DIR}/usr/include/libxml2' }    
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/usr/include/libxml2" }
   # s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/xxx/xxx"' }
   # s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "Resources/Framework" }
