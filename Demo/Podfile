@@ -7,6 +7,7 @@ platform :ios, '8.0'
 
 target '_ProjectName_' do
 
+	# 常用库
 	# pod 'Masonry', '~> 1.1.0'
 	# pod 'AFNetworking', '~> 3.2.1'
 	# pod 'YYModel', '~> 1.0.4'
@@ -17,6 +18,8 @@ target '_ProjectName_' do
 	# pod 'SDAutoLayout', '~> 2.1.3'
 	# TableView
 	# pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+	# 天猫高性能异构滚动视图构建方案
+   	# pod 'LazyScrollView', '~> 1.0.0'
 	# 组件化框架
 	# pod ’CTMediator‘
 	# pod 'MGJRouter', '~>0.9.0'
@@ -30,6 +33,8 @@ target '_ProjectName_' do
 	# pod 'SVProgressHUD', '~> 2.2.5'
 	# pod 'MJRefresh', '~> 3.1.15.7'
 	# pod 'CocoaAsyncSocket', '~> 7.6.3'
+	# 空视图占位
+	# pod 'DZNEmptyDataSet', '~> 1.8.1'
 	# 数据库
 	# pod 'FMDB', '~> 2.7.5'
 	# 图片轮播
