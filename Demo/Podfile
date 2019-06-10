@@ -8,43 +8,50 @@ platform :ios, '8.0'
 target '_ProjectName_' do
 
 	# pod 'Masonry', '~> 1.1.0'
+	# pod 'AFNetworking', '~> 3.2.1'
+	# pod 'YYModel', '~> 1.0.4'
 	# pod 'SDWebImage', '~> 4.4.6'
+	# pod 'MBProgressHUD', '~> 1.1.0'
+
+	# 布局
 	# pod 'SDAutoLayout', '~> 2.1.3'
-	#pod ’CTMediator‘
-	#pod 'ReactiveCocoa', '~> 8.0.2'
-	#pod 'ReactiveObjC', '~> 3.1.0'
-	#pod 'AFNetworking', '~> 3.2.1'
-	#pod ’YTKNetwork'
-	#pod 'YYModel'
-	#pod 'MGJRouter', '~>0.9.0'
-	#pod 'MBProgressHUD', '~> 1.1.0'
-	#pod 'SVProgressHUD', '~> 2.2.5'
-	#pod 'MJRefresh', '~> 3.1.15.7'
-	#pod 'FMDB', '~> 2.7.5'
-	#pod 'CocoaAsyncSocket', '~> 7.6.3'
-	#pod 'SDCycleScrollView'
-	# ZJScrollPageView
+	# TableView
+	# pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+	# 组件化框架
+	# pod ’CTMediator‘
+	# pod 'MGJRouter', '~>0.9.0'
+	# pod 'JLRoutes', '~> 2.1'
+	# 函数响应式编程
+	# pod 'ReactiveCocoa', '~> 8.0.2'
+	# pod 'ReactiveObjC', '~> 3.1.0'
+	# 网络
+	# pod 'Reachability', '~> 3.2'
+	# pod ’YTKNetwork'
+	# pod 'SVProgressHUD', '~> 2.2.5'
+	# pod 'MJRefresh', '~> 3.1.15.7'
+	# pod 'CocoaAsyncSocket', '~> 7.6.3'
+	# 数据库
+	# pod 'FMDB', '~> 2.7.5'
+	# 图片轮播
+	# pod 'SDCycleScrollView', '~> 1.80'
+	# pod 'JXBAdPageView', '~> 1.5'
+	# 新闻头条联动
+	# pod 'ZJScrollPageView', '~> 0.4.0'
+	# 友盟
+	# pod 'UMengAnalytics', '~> 4.2.4'
+	# pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
+    # 百度地图
+	# pod 'BaiduMapKit', '~> 3.2'
+	# 视频播放器
+	# pod 'MobileVLCKit', '~> 3.3.2'
+	# 键盘助手
+	# pod 'IQKeyboardManager', '~> 6.3.0'
 
-    #pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
-    #pod 'UMCCommon'
-    #pod 'UMCAnalytics'
-    #pod 'UMCSecurityPlugins'
-	#pod 'BaiduMapKit', '~> 3.2'
-
-	#pod 'MobileVLCKit'
-	#pod 'JSONKit', '~> 1.4'
-	#pod 'MobileVLCKit'
-	#pod 'JLRoutes'
-	#pod 'IQKeyboardManager'
-	#pod 'JXBAdPageView', '~> 1.5'
-	#pod 'Reachability', '~> 3.2'
-	#pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
-	#pod 'Verify', :path => './Verify'
-	#pod 'BasePlug', :path => 'Lib/BasePlug'
-	#pod 'EHomePage', :git => ‘https://github.com/yhl714387953/EHomePage.git'
-	#pod 'DFBasePlug'
-	# pod 'FFBaseKit' 引入pod库中所有模块
-	# pod 'FFBaseKit/Category' 只引入Category模块
+	# 本地库
+	# pod 'BasePlug', :path => '../Lib/BasePlug'
+	# pod 'BasePlug', :git => ‘https://github.com/dafiger/BasePlug.git'
+	# 引入部分库
+	# pod 'FFBaseKit/Category' 
 	# pod 'FFBaseKit', :subspecs => ['Category', 'Tools']
 	# pod 'YTXAnimations', '~> 1.2.4', :subspecs => ["AnimateCSS", "Transformer"]
 	
