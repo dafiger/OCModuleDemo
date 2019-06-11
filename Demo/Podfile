@@ -48,6 +48,8 @@ target '_ProjectName_' do
     # 百度地图
 	# pod 'BaiduMapKit', '~> 3.2'
 	# 视频播放器
+	# pod 'MobileVLCKit', '~> 2.2.2'
+	# pod 'MobileVLCKit'
 	# pod 'MobileVLCKit', '~> 3.3.2'
 	# 键盘助手
 	# pod 'IQKeyboardManager', '~> 6.3.0'
