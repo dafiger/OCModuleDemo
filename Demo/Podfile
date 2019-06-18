@@ -13,6 +13,9 @@ target '_ProjectName_' do
 	# pod 'YYModel', '~> 1.0.4'
 	# pod 'SDWebImage', '~> 4.4.6'
 	# pod 'MBProgressHUD', '~> 1.1.0'
+	# RAC
+	# pod 'ReactiveCocoa', '~> 10.0.0'
+	# pod 'ReactiveSwift', '~> 6.0.0'
 
 	# 布局
 	# pod 'SDAutoLayout', '~> 2.1.3'
