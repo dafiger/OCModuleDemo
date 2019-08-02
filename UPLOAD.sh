@@ -54,7 +54,7 @@ echo "Start editing..."
 # sed -i "" "s%_RepositoryVersion_%${UpVersion}%g" "${spec_Path}"
 # 新方法
 # version_str="awk 'NR==m{print $5}' ${spec_Path} "
-version_str="sed -n 5p ${spec_Path}"
+version_str="sed -n 3p ${spec_Path}"
 version_spec=$(${version_str})
 version_show="s.version      = '${UpVersion}'"
 echo "Update:${version_spec},${version_show},${spec_Path}"
