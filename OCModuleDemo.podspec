@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 #    s.exclude_files = '_ProjectName_/Classes/**/unused.{h,m}'
 
 #    公开头文件
-  s.public_header_files = '_ProjectName_/Classes/**/*.h'
+#    s.public_header_files = '_ProjectName_/Classes/**/*.h'
 #    私有头文件
 #    s.private_header_files = '_ProjectName_/Classes/**/*.h'
 #    预编译文件
