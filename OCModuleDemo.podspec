@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
 #    资源文件1
   s.resource_bundles = {
-    '_ProjectName_' => ['_ProjectName_/Assets/**/*']
+    '_ProjectName_Bundle' => ['_ProjectName_/Assets/**/*']
   }
 #    s.resource_bundles = {
 #      '_ProjectName_Images_bundle' => ['_ProjectName_/Resource.bundle'],
