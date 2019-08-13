@@ -11,7 +11,7 @@ target '_ProjectName_' do
 	# pod 'Masonry', '~> 1.1.0'
 	# pod 'AFNetworking', '~> 3.2.1'
 	# pod 'YYModel', '~> 1.0.4'
-	# pod 'SDWebImage', '~> 4.4.6'
+	# pod 'SDWebImage', '~> 5.1.0'
 	# pod 'MBProgressHUD', '~> 1.1.0'
 	# RAS(纯Swift)
 	# pod 'ReactiveCocoa', '~> 10.0.0'
